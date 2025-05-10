@@ -2,5 +2,6 @@ streamlit==1.17.0
 pandas==1.5.3
 plotly==5.10.0
 openpyxl==3.0.10
-euriai==1.0.0
+euriai==0.3.3  # Updated version of euriai
 requests==2.28.1
+
