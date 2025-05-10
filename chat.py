@@ -11,7 +11,7 @@ client = EuriaiClient(
 )
 
 # -------------------- App UI --------------------
-st.title("📊 DataSage")
+st.title("📊 DataBuddy")
 
 # File upload
 uploaded_file = st.sidebar.file_uploader("📤 Upload Excel File", type=["xlsx", "xls"])
@@ -165,7 +165,7 @@ if 'df' in st.session_state:
         st.plotly_chart(fig3, use_container_width=True)
 
     # Chat Assistant
-    st.sidebar.header("🤖 DataSage")
+    st.sidebar.header("🤖 DataBuddy")
     user_input = st.sidebar.text_input("You:", "")
 
     if user_input:
